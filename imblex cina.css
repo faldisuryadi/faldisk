@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+}
+#header{
+    width: 100%;
+    position: fixed;
+    z-index: 2;
+    background-color: darkblue;
+}
+#menu-bar{
+    width: 100%;
+    height: 50px;
+    background-color: skyblue;
+}
+#pemilik{
+    color: white;
+    padding: 10px;
+}
+#daftar-menu{
+    display: inline-flex;
+}
+.menu{
+    padding: 10px;
+    list-style: none;
+    width: 140px;
+    text-align: center;
+}
+.menu:hover{
+    background: yellow;
+}
+#daftar-artikel{
+    display: none;
+}
+#open-artikel:hover #daftar-artikel{
+    display: block;
+}
+.sub-artikel:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    width: 100px;
+    text-align: center;
+    
+    
+}
+.sub-artikel{
+    list-style: none;
+    margin-left: -20px;
+    padding-top: 15px;
+}
+.kontent{
+    width: 100%;
+    height: 1000px;
+    background-color: gray;
+    display: flex;
+}
+#kotak-kecil{
+    width: 30%;
+    height: 8000px;
+    background-color: blue;
+       
+}
+#kotak-besar{
+    width: 70%;
+    height: 8000px;
+    background-color: palevioletred;
+    display: flex;
+}
+#faldi{
+    width: 50%;
+    background-color: red;
+   
+    
+}
+#mido{
+    width: 50%;
+    height: 600px;
+    background-color:gray;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap:wrap;
+    
+}
+.boy{
+    width: 170px;
+    height: 170px;
+    background-color: white;
+    margin-right:55;
+   
+    
+}
+.foto{
+    width: 170px;
+    height: 170px;
+    
+}
+
+#yt{
+    width: 100%;
+    height: 100%;
+    
+    
+}
+#bingkai{
+    width: 80%;
+    height: 400px;
+    background-color: pink;
+    margin: auto;
+}
+#wildo{
+    width: 50%;
+    height: 400px;
+    background-color: brown;
+    margin: auto;
+}
+.tatung{
+    height: 400px;
+    
+}
+
+.gbr{
+    width: 100%;
+    height: 150px;
+    background-color: floralwhite;
+    display: flex;
+    margin-top: 20px;
+ 
+    
+}
+.gbr1{
+    width: 100%;
+   height: 100%;
+    background-color: yellow;
+        
+}
+.gbr2{
+    width: 100%;
+    height: 150px;
+    background-color:aqua;
+}
+.gambar{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
